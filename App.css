@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap');
+
+* {
+  font-family: 'IBM Plex Sans', 'Work Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.App {
+  min-height: 100vh;
+  background-color: #000000;
+}
+
+body {
+  overflow: hidden;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-10px); }
+  75% { transform: translateX(10px); }
+}
+
+.animate-shake {
+  animation: shake 0.3s ease-in-out;
+}
